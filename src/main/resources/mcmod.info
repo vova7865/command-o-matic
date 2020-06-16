@@ -3,7 +3,7 @@
   "modid": "commandomatic",
   "name": "Command-O-Matic",
   "description": "Overrides vanilla commands, so they can work without limits!",
-  "version": "1.3",
+  "version": "1.4",
   "mcversion": "${mcversion}",
   "url": "https://minecraft.curseforge.com/projects/command-o-matic",
   "updateUrl": "",
