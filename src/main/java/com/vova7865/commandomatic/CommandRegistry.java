@@ -11,16 +11,16 @@ import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 
 public class CommandRegistry {
 	public static void overrideCommands(FMLServerStartingEvent e) {
-		doRegister(e, new CommandBase[]{
+		doRegister(e, new CommandBase[] {
 				new CommandExtendedClone(),
 				new CommandExtendedEnchant(),
 				new CommandExtendedEntityData(),
 				new CommandExtendedFill(),
 				new CommandExtendedPublish()
-				});
+		});
 	}
 	private static void doRegister(FMLServerStartingEvent e, CommandBase... r) {
-		for(CommandBase cmd:r) {
+		for (CommandBase cmd : r) {
 			e.registerServerCommand(cmd);
 		}
 	}
